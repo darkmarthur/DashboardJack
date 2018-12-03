@@ -1,0 +1,78 @@
+<mz-sidenav #sidenav [id]="'sidenav-demo'" [collapseButtonId]="'btn-sidenav-demo'" [edge]="'right'">
+  <mz-sidenav-header>
+    <div class="user-view">
+      <img class="circle avatar" src="https://sherweb.github.io/ngx-materialize/assets/sidenav-demo-avatar.png">
+      <div class="white-text name">King Nobody</div>
+      <div class="white-text email">king.nobody@gmail.com</div>
+    </div>
+  </mz-sidenav-header>
+  <mz-sidenav-subheader>Link Subheader</mz-sidenav-subheader>
+  <mz-sidenav-link>
+    <a>First Link</a>
+  </mz-sidenav-link>
+  <mz-sidenav-link [active]="true">
+    <a>Active Link</a>
+  </mz-sidenav-link>
+  <mz-sidenav-link>
+    <a class="waves-effect">Second Link With Waves</a>
+  </mz-sidenav-link>
+  <mz-sidenav-divider></mz-sidenav-divider>
+  <mz-sidenav-link>
+    <a><i class="material-icons">cloud</i>Third Link With Icon</a>
+  </mz-sidenav-link>
+  <mz-sidenav-link>
+    <a><i class="material-icons">crop_free</i>Third Link With Icon</a>
+  </mz-sidenav-link>
+  <mz-sidenav-divider></mz-sidenav-divider>
+  <mz-sidenav-subheader>Collapsible Subheader</mz-sidenav-subheader>
+  <mz-sidenav-collapsible>
+    <mz-sidenav-collapsible-header>
+      Collapsible
+    </mz-sidenav-collapsible-header>
+    <mz-sidenav-collapsible-content>
+      <mz-sidenav-link>
+        <a class="waves-effect">First Link</a>
+      </mz-sidenav-link>
+      <mz-sidenav-link>
+        <a class="waves-effect">Second Link</a>
+      </mz-sidenav-link>
+      <mz-sidenav-link>
+        <a class="waves-effect">Third Link</a>
+      </mz-sidenav-link>
+    </mz-sidenav-collapsible-content>
+  </mz-sidenav-collapsible>
+  <mz-sidenav-collapsible>
+    <mz-sidenav-collapsible-header>
+      <i class="material-icons caret">arrow_right</i>Collapsible With Carret
+    </mz-sidenav-collapsible-header>
+    <mz-sidenav-collapsible-content>
+      <mz-sidenav-link>
+        <a class="waves-effect">First Link</a>
+      </mz-sidenav-link>
+      <mz-sidenav-link>
+        <a class="waves-effect">Second Link</a>
+      </mz-sidenav-link>
+      <mz-sidenav-link>
+        <a class="waves-effect">Third Link</a>
+      </mz-sidenav-link>
+    </mz-sidenav-collapsible-content>
+  </mz-sidenav-collapsible>
+  <mz-sidenav-collapsible>
+    <mz-sidenav-collapsible-header>
+      <i class="material-icons">diamond</i>Collapsible With Icon
+    </mz-sidenav-collapsible-header>
+    <mz-sidenav-collapsible-content>
+      <mz-sidenav-link>
+        <a class="waves-effect"><i class="material-icons">palette</i>First Link</a>
+      </mz-sidenav-link>
+      <mz-sidenav-link>
+        <a class="waves-effect"><i class="material-icons">flash</i>Second Link</a>
+      </mz-sidenav-link>
+      <mz-sidenav-link>
+        <a class="waves-effect"><i class="material-icons">gamepad</i></a>
+        <!-- <a class="waves-effect"><i class="material-icons">gamepad</i>Third Link</a> -->
+      </mz-sidenav-link>
+    </mz-sidenav-collapsible-content>
+  </mz-sidenav-collapsible>
+</mz-sidenav>
+<button mz-button id="btn-sidenav-demo">Open</button>
